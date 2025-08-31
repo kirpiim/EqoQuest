@@ -1,0 +1,15 @@
+# Godot ignore rules
+# Godot-specific folders
+.import/
+.export/
+mono/
+
+# Temporary and cache files
+*.tmp
+*.import
+*.translation
+data_*/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
