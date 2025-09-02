@@ -18,6 +18,7 @@ var minDashSpeed = 100
 var currentState = State.NORMAL
 var isStateNew = true
 var defaultHazardMask = 0
+var hasDash = false
 
 func _ready():
 	$HazardArea.connect("area_entered", self, "on_hazard_area_entered")
@@ -71,9 +72,11 @@ func process_normal(delta):
 	
 	if(is_on_floor()):
 		hasDoubleJump = true
+		hasDash = true
 		
-	if(Input.is_action_just_pressed("dash")):
+	if(hasDash && Input.is_action_just_pressed("dash")):
 		call_deferred("change_state", State.DASHING)
+		hasDash = false
 	
 	update_animation()
 
