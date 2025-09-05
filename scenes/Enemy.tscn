@@ -32,6 +32,7 @@ position = Vector2( 0.0158426, 0.870116 )
 scale = Vector2( 0.846422, 0.680129 )
 frames = SubResource( 1 )
 animation = "run"
+frame = 1
 playing = true
 offset = Vector2( 0, -12 )
 
