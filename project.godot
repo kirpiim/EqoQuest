@@ -13,6 +13,10 @@ config_version=4
 config/name="CAPSTONE 2"
 run/main_scene="res://scenes/Main.tscn"
 
+[autoload]
+
+LevelManager="*res://scenes/LevelManager.tscn"
+
 [display]
 
 window/size/width=320
