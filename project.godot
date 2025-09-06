@@ -16,6 +16,7 @@ run/main_scene="res://scenes/UI/MainMenu.tscn"
 [autoload]
 
 LevelManager="*res://scenes/LevelManager.tscn"
+ScreenTransitionManager="*res://scenes/ScreenTransitionManager.tscn"
 
 [display]
 
