@@ -38,5 +38,6 @@ offset = Vector2( 0, -18 )
 position = Vector2( -0.375, -54.233 )
 scale = Vector2( 0.6125, 0.505896 )
 frames = SubResource( 2 )
+frame = 1
 playing = true
 centered = false
