@@ -46,24 +46,14 @@ margin_bottom = 9.0
 text = "PAUSED"
 align = 1
 
-[node name="ContinueButton" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="ContinueButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 15.0
 margin_right = 112.0
 margin_bottom = 39.0
-rect_min_size = Vector2( 96, 24 )
-theme = ExtResource( 1 )
 text = "CONTINUE"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
-[node name="QuitButton" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="QuitButton" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 45.0
 margin_right = 112.0
 margin_bottom = 69.0
-rect_min_size = Vector2( 96, 24 )
-theme = ExtResource( 1 )
 text = "QUIT TO MENU"
-__meta__ = {
-"_edit_use_anchors_": false
-}
