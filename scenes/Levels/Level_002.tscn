@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scenes/BaseLevel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/Bottle.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scenes/Spikes.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Trash.tscn" type="PackedScene" id=4]
 
 [node name="Level_002" instance=ExtResource( 1 )]
 
@@ -54,53 +55,53 @@ position = Vector2( 80, -48 )
 [node name="Bottle17" parent="Collectibles" index="13" instance=ExtResource( 2 )]
 position = Vector2( -56, -32 )
 
-[node name="Bottle18" parent="Collectibles" index="14" instance=ExtResource( 2 )]
-position = Vector2( -304, -88 )
-
-[node name="Bottle19" parent="Collectibles" index="15" instance=ExtResource( 2 )]
-position = Vector2( -272, -88 )
-
-[node name="Bottle20" parent="Collectibles" index="16" instance=ExtResource( 2 )]
+[node name="Bottle20" parent="Collectibles" index="14" instance=ExtResource( 2 )]
 position = Vector2( -304, -192 )
 
-[node name="Bottle21" parent="Collectibles" index="17" instance=ExtResource( 2 )]
+[node name="Bottle21" parent="Collectibles" index="15" instance=ExtResource( 2 )]
 position = Vector2( -264, -240 )
 
-[node name="Bottle23" parent="Collectibles" index="18" instance=ExtResource( 2 )]
+[node name="Bottle23" parent="Collectibles" index="16" instance=ExtResource( 2 )]
 position = Vector2( -56, -280 )
 
-[node name="Bottle24" parent="Collectibles" index="19" instance=ExtResource( 2 )]
+[node name="Bottle24" parent="Collectibles" index="17" instance=ExtResource( 2 )]
 position = Vector2( 32, -328 )
 
-[node name="Bottle26" parent="Collectibles" index="20" instance=ExtResource( 2 )]
+[node name="Bottle26" parent="Collectibles" index="18" instance=ExtResource( 2 )]
 position = Vector2( 72, -304 )
 
-[node name="Bottle27" parent="Collectibles" index="21" instance=ExtResource( 2 )]
+[node name="Bottle27" parent="Collectibles" index="19" instance=ExtResource( 2 )]
 position = Vector2( 104, -280 )
 
-[node name="Bottle28" parent="Collectibles" index="22" instance=ExtResource( 2 )]
-position = Vector2( 384, -248 )
-
-[node name="Bottle29" parent="Collectibles" index="23" instance=ExtResource( 2 )]
+[node name="Bottle29" parent="Collectibles" index="20" instance=ExtResource( 2 )]
 position = Vector2( 392, -320 )
 
-[node name="Bottle30" parent="Collectibles" index="24" instance=ExtResource( 2 )]
+[node name="Bottle30" parent="Collectibles" index="21" instance=ExtResource( 2 )]
 position = Vector2( 264, -248 )
 
-[node name="Bottle25" parent="Collectibles" index="25" instance=ExtResource( 2 )]
+[node name="Bottle25" parent="Collectibles" index="22" instance=ExtResource( 2 )]
 position = Vector2( -16, -320 )
 
-[node name="Bottle22" parent="Collectibles" index="26" instance=ExtResource( 2 )]
+[node name="Bottle22" parent="Collectibles" index="23" instance=ExtResource( 2 )]
 position = Vector2( -208, -256 )
 
-[node name="Bottle15" parent="Collectibles" index="27" instance=ExtResource( 2 )]
+[node name="Bottle15" parent="Collectibles" index="24" instance=ExtResource( 2 )]
 position = Vector2( 40, -32 )
 
-[node name="Bottle9" parent="Collectibles" index="28" instance=ExtResource( 2 )]
-position = Vector2( 440, 200 )
+[node name="Trash2" parent="Collectibles" index="25" instance=ExtResource( 4 )]
+position = Vector2( 432, 204 )
 
-[node name="Bottle10" parent="Collectibles" index="29" instance=ExtResource( 2 )]
-position = Vector2( 440, 200 )
+[node name="Trash3" parent="Collectibles" index="26" instance=ExtResource( 4 )]
+position = Vector2( 392, 205 )
+
+[node name="Trash4" parent="Collectibles" index="27" instance=ExtResource( 4 )]
+position = Vector2( -304, -83 )
+
+[node name="Trash5" parent="Collectibles" index="28" instance=ExtResource( 4 )]
+position = Vector2( -272, -83 )
+
+[node name="Trash6" parent="Collectibles" index="29" instance=ExtResource( 4 )]
+position = Vector2( 377, -245 )
 
 [node name="Hazards" parent="." index="6"]
 position = Vector2( 16, 8 )
@@ -148,20 +149,20 @@ position = Vector2( 227, 245 )
 position = Vector2( 246, 245 )
 
 [node name="Spikes7" parent="Hazards" index="14" instance=ExtResource( 3 )]
-position = Vector2( 308, 54 )
-rotation = 1.65033
+position = Vector2( 306, 54 )
+rotation = 1.55797
 
 [node name="Spikes9" parent="Hazards" index="15" instance=ExtResource( 3 )]
-position = Vector2( 327, -305 )
+position = Vector2( 328, -305 )
 rotation = 4.71494
 
 [node name="Spikes10" parent="Hazards" index="16" instance=ExtResource( 3 )]
-position = Vector2( 327, -288 )
+position = Vector2( 328, -288 )
 rotation = 4.71494
 
 [node name="Spikes8" parent="Hazards" index="17" instance=ExtResource( 3 )]
-position = Vector2( 308, 39 )
-rotation = 1.65033
+position = Vector2( 306, 39 )
+rotation = 1.56429
 
 [node name="Player" parent="." index="7"]
 position = Vector2( -456, 152 )
