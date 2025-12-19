@@ -1,7 +1,7 @@
 # EcoQuest
 
 **EcoQuest** is a **2D platformer game** built using the **Godot Engine** as a **capstone project**.  
-Players take on the role of an **eco-hero** who must **collect plastic bottles**, **dash through enemies**, and **reach the flag** to advance through levels.  
+Players take on the role of an **eco-hero** who must **collect plastic bottles and thrash**, **dash through enemies**, and **reach the flag** to advance through levels.  
 The game blends **fun platforming mechanics** with an **environmental awareness theme** — promoting sustainability and recycling.
 
 ---
@@ -9,7 +9,7 @@ The game blends **fun platforming mechanics** with an **environmental awareness 
 ## Game Overview
 
 **EcoQuest** combines **fast-paced action** and **strategic movement** with a mission to clean up the environment.  
-Each level challenges players to **collect all plastic bottles** before the **flag activates**, allowing progression. 
+Each level challenges players to **collect all plastic bottles and trash** before the **flag activates**, allowing progression. 
 Players can **double jump** to reach higher platforms or avoid enemies mid-air.
 Enemies can be **destroyed with a dash**, but they **respawn**, keeping gameplay tense and dynamic.  
 Touching **spikes** or **enemies** results in **death and respawn** at the start or last checkpoint.
@@ -20,7 +20,7 @@ Touching **spikes** or **enemies** results in **death and respawn** at the start
 
 - **Smooth player movement** with running, jumping, **double jumping** and dashing  
 - **Enemy system** — destroyable enemies that **respawn** after defeat  
-- **Collectibles** — bottles required to unlock the **exit flag**
+- **Collectibles** — bottles and trash required to unlock the **exit flag**
 - **Pause Menu** — press `P` to open, with options to **Continue** or **Quit to Menu**   
 - **Level progression** — complete one level to **unlock the next**
 - **Seamless scene and level transitions** with a smooth **fade-to-black effect**,  
@@ -36,7 +36,7 @@ Touching **spikes** or **enemies** results in **death and respawn** at the start
 
 1. **Start** the game and choose a level.  
 2. **Move**, **jump**, **double jump**, and **dash** to navigate the terrain.  
-3. **Collect all plastic bottles** scattered across the map.  
+3. **Collect all plastic bottles and trash** scattered across the map.  
 4. When all bottles are collected, the **flag activates**.  
 5. **Reach the flag** to finish the level and unlock the next.  
 6. Avoid **spikes or enemies** — touching them makes you **respawn**.
